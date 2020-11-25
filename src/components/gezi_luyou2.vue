@@ -1,5 +1,6 @@
 <template>
     <div>
+      <Button type="primary" @click="toDetail">详情</Button>
       <Table width="100%" border :columns="columns2" :data="data3"></Table>
     </div>
 </template>
@@ -100,6 +101,12 @@
             ]
           }
         },
+      methods:{
+        toDetail:function () {
+          this.$router.push({path:"/g/e/l"})
+        }
+      }
+
 
     }
 </script>

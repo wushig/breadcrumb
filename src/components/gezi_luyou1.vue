@@ -4,13 +4,13 @@
     <Row>
       <Col span="4">
         <Menu :theme="theme2" @on-select = "" style="width: 100%">
-          <Submenu name="1" to="/d/g">
+          <Submenu name="1" to="/g">
             <template slot="title">
               <Icon type="ios-paper"/>
               内容管理
             </template>
-            <MenuItem name="1-1" to="/d/g/e" :replace="true">文章管理</MenuItem>
-            <MenuItem name="1-2" to="/d/g/f" :replace="true">评论管理</MenuItem>
+            <MenuItem name="1-1" to="/g/e" :replace="true">文章管理</MenuItem>
+            <MenuItem name="1-2" to="/g/f" :replace="true">评论管理</MenuItem>
             <MenuItem name="1-3">举报管理</MenuItem>
           </Submenu>
           <Submenu name="2">
@@ -18,8 +18,8 @@
               <Icon type="ios-people"/>
               用户管理
             </template>
-            <MenuItem name="2-1" to="/d/h/j">新增用户</MenuItem>
-            <MenuItem name="2-2" to="/d/h/k">活跃用户</MenuItem>
+            <MenuItem name="2-1" to="/h/j">新增用户</MenuItem>
+            <MenuItem name="2-2" to="/h/k">活跃用户</MenuItem>
           </Submenu>
           <Submenu name="3">
             <template slot="title">
