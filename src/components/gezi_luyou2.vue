@@ -103,7 +103,7 @@
         },
       methods:{
         toDetail:function () {
-          this.$router.push({path:"/g/e/l"})
+          this.$router.push({path:"/g/e/m"})
         }
       }
 
